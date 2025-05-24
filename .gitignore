@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+Python*/
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.pytest_cache/
+nosetests.xml
+dist/
+build/
+*.egg-info/
+.eggs/
+htmlcov/
+.ipynb_checkpoints
+.idea/ # For PyCharm users
+
+# Specific to NubaGuard
+*.mp3               # Temporary speech files
+*.wav               # Temporary cry audio file
+nuba_activity_log.csv # You might want to keep this locally, but usually logs aren't version controlled
+*.log
+*.swp
+
+# Sensitive files - IMPORTANT!
+config.py           # Because it contains your API key. You'll need to tell users to create their own.
